@@ -1,0 +1,38 @@
+/* Sidebar */
+.sidebar {
+    display: flex;
+    height: 100vh;
+    top: 0px;
+    left: 0;
+    width: 200px;
+    border-color: 2px rgb(172, 211, 193);
+    background-color: aliceblue;
+    font-size: large;
+}
+
+/* Sidebar menu */
+.sidebar-menu {
+    height: fit-content;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sidebar menu items */
+.sidebar-menu li {
+    height: large;
+    padding: 10px;
+}
+
+/* Sidebar menu links */
+.sidebar-menu li a {
+    display: block;
+    color: #100f0f;
+    text-decoration: none;
+}
+
+/* Change color of links on hover */
+.sidebar-menu li a:hover {
+    background-color: rgb(172, 211, 193);
+    color: #080808;
+}

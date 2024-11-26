@@ -1,0 +1,141 @@
+.main-container {
+    flex-grow: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.sellsreport {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sellsreport h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(92, 92, 92);
+    padding: 0px;
+    margin: 40px;
+}
+
+.sales-report {
+    margin: 0 auto;
+    width: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: "Arial", sans-serif;
+}
+
+.sellsreport h1 {
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+#sales-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#sales-table th,
+#sales-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+#sales-table th {
+    background-color: #f2f2f2;
+}
+
+.action-btns button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-btns button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Sidebar */
+
+div.sidebar {
+    display: flex;
+    height: 100vh;
+    top: 0px;
+    left: 0;
+    width: 200px;
+    border-color: 2px rgb(172, 211, 193);
+    background-color: aliceblue;
+    font-size: large;
+}
+
+
+/* Sidebar menu */
+
+.sidebar-menu {
+    height: fit-content;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Sidebar menu items */
+
+.sidebar-menu li {
+    height: large;
+    padding: 10px;
+}
+
+
+/* Sidebar menu links */
+
+.sidebar-menu li a {
+    display: block;
+    color: #100f0f;
+    text-decoration: none;
+}
+
+
+/* Change color of links on hover */
+
+.sidebar-menu li a:hover {
+    background-color: rgb(172, 211, 193);
+    color: #080808;
+}

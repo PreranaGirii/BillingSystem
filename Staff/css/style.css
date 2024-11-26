@@ -1,0 +1,241 @@
+.logo img {
+    width: 180px;
+    padding-top: 0px;
+    padding-bottom: 9px;
+}
+
+.bar {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 100px;
+    align-items: center;
+    height: 80px;
+    padding: 0 7vw;
+    background-color: aliceblue;
+    border-bottom: 2px solid rgb(172, 211, 193);
+}
+
+.header span {
+    display: flex;
+    align-items: center;
+}
+
+.header span :hover {
+    color: rgb(253, 57, 8);
+}
+
+.nav span {
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav a {
+    text-decoration: none;
+    /* Remove underline */
+    color: #333;
+    /* Set link color */
+}
+
+.nav a:hover {
+    text-decoration: none;
+    /* Remove underline on hover */
+    color: #555;
+    /* Change color on hover if needed */
+}
+
+.account {
+    display: flex;
+    color: rgb(70, 64, 64);
+}
+
+.account a{
+    display: flex;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.account a:hover .logout-text {
+    display: inline;
+}
+
+.account a .logout-text {
+    display: none;
+}
+
+.account a:hover .fa-sign-out:before {
+    display: none;
+}
+
+.account a .fa-sign-out:before {
+    content: '\f2f5'; /* Unicode for the logout icon */
+    margin-right: 5px;
+}
+
+
+.bar i:hover {
+    color: rgb(253, 57, 8);
+}
+
+.home-image {
+    height: 550px;
+    overflow: hidden;
+}
+
+.landing-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-overlay h2 {
+    color: rgb(82, 82, 82);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.image-overlay h3 {
+    color: rgb(187, 187, 187);
+    font-size: 16;
+    margin-bottom: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.image-overlay button {
+    background-color: #1664da;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.image-overlay button:hover {
+    background-color: #1664da;
+}
+
+.red_btn {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 160px;
+    font-weight: bold;
+    color: black;
+    line-height: 50px;
+    background-color: rgb(166, 214, 233);
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0 10px 15px bisque;
+    transition: all 0.2s;
+}
+
+.red_btn:hover {
+    background-color: cadetblue;
+    box-shadow: 0 2px 15px rgb(18, 11, 5);
+    border: 1px bisque;
+    color: rgb(15, 18, 16);
+}
+
+.red_btn:hover i {
+    color: darkkhaki;
+}
+
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categories {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f1ebeb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(107, 107, 107, 0.1);
+    transition: all 0.3s ease;
+}
+
+.categories:hover {
+    transform: translateY(-5px);
+}
+
+.categories img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.categories h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.categories p {
+    font-size: 16px;
+    color: #777777;
+}
+
+footer {
+    background-color: #333;
+    /* Background color for the footer */
+    color: white;
+    /* Text color */
+    padding: 20px;
+    /* Padding around footer content */
+    text-align: center;
+    /* Center-align footer content */
+}
+
+
+/* Social media icon styles */
+
+.social-icons .icon {
+    color: white;
+    /* Icon color */
+    margin: 0 5px;
+    /* Add margin between icons */
+}
+
+
+/* Hover effect for social media icons */
+
+.social-icons .icon:hover {
+    opacity: 0.8;
+    /* Reduce opacity on hover */
+}

@@ -1,0 +1,83 @@
+.main-container {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.addProduct {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addProduct h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(92, 92, 92);
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.addProductForm {
+    margin: 0 auto;
+    width: 500px;
+    background: solid white;
+    padding: 30px;
+    border: 1px solid rgb(70, 63, 63);
+    border-radius: 2px;
+}
+
+.InputContainer {
+    text-align: left;
+    margin-top: 12px;
+}
+
+.InputContainer label {
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    color: solid rgb(99, 99, 99);
+    padding-bottom: 12px;
+}
+
+.InputContainer input {
+    height: 30px;
+    width: 495px;
+    border: 1px solid rgb(76, 69, 69);
+    font-size: 15px;
+    padding: 1px;
+    text-align: left;
+    font-style: normal;
+}
+
+.InputContainer select {
+    width: 495px;
+    height: 30px;
+    padding: 2px;
+    border: 1px solid rgb(76, 69, 69);
+    font-size: 16px;
+    outline: none;
+}
+
+.InputContainer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.InputContainer button {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: rgb(135, 194, 203);
+    border: 1px;
+    color: rgb(12, 14, 13);
+    border-radius: 10px;
+}
+
+.InputContainer button:hover {
+    background-color: rgb(165, 239, 242);
+    box-shadow: 0 2px 15px rgb(18, 11, 5);
+    border: 1px bisque;
+    color: rgb(15, 18, 16);
+}
